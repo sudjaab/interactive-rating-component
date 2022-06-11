@@ -1,0 +1,111 @@
+.attribution {
+	font-size: 11px;
+	text-align: center;
+	color: hsl(216, 12%, 54%);
+}
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
+body {
+	background-color: hsl(216, 12%, 8%);
+	display: inline;
+	box-sizing: border-box;
+	font-family: 'Overpass', sans-serif;
+}
+.container {
+	background-color: hsl(213, 19%, 18%);
+	width: 22%;
+	margin: 10% auto;
+	color: white;
+	padding: 2%;
+	border-radius: 20px;
+}
+button {
+	background-color: hsl(25, 97%, 53%);
+	width: 100%;
+	color: white;
+	padding: 10px 0;
+	border: 0px;
+	border-radius: 20px;
+	text-transform: uppercase;
+	cursor: pointer;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+button:hover {
+	background-color: hsl(0, 0%, 100%);
+	color: hsl(25, 97%, 53%);
+}
+.container p {
+	color: hsl(216, 12%, 54%);
+	font-size: 15px;
+}
+.ratings {
+	display: flex;
+	justify-content: space-between;
+	margin: 8% 0;
+}
+.circle {
+	background-color: hsl(214, 20%, 23%);
+	width: 3rem;
+	height: 3rem;
+	border-radius: 50%;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: hsl(216, 12%, 54%);
+}
+
+.circle:hover {
+	color: white;
+	background-color: hsl(25, 97%, 53%);
+}
+.circle:hover > p {
+	color: white;
+}
+
+.star {
+	background-color: hsl(214, 20%, 23%);
+	padding: 5%;
+	border-radius: 50%;
+}
+.thank-state {
+	text-align: center;
+}
+
+.thank-state #count {
+	color: hsl(25, 97%, 53%);
+	background-color: hsl(214, 20%, 23%);
+	padding: 5px;
+	margin: 0 20%;
+	border-radius: 20px;
+	margin-top: 8%;
+	font-size: 14px;
+}
+
+.hide {
+	display: none;
+}
+.active {
+	background-color: hsl(216, 12%, 54%);
+	color: white;
+}
+
+h2 {
+	font-weight: 500;
+}
+@media (max-width: 375px) {
+	.container {
+		width: 100%;
+		margin: 10%;
+		padding: 5%;
+	}
+	.circle {
+		width: 2.5rem;
+		height: 2.5rem;
+	}
+	.thank-state img {
+		width: 50%;
+	}
+}
